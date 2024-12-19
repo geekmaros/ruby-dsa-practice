@@ -3,7 +3,7 @@ def length_finder(input_array)
   input_array.each do |el|
     arr.push(el.length)
   end
-  return arr
+   arr
 end
 
 
