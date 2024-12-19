@@ -10,7 +10,7 @@
 
 
 def sort_string(string)
-  string.split(' ').sort_by(&:length)
+  string.split(' ').sort_by(&:length).join(' ')
 end
 
 puts sort_string("Sort words in a sentence")
